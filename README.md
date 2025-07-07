@@ -23,3 +23,18 @@ Este código:
 - Geração de CPFs válidos com os dígitos verificadores corretos.
 - Interface simples via terminal.
 - Cores e destaques com sequências ANSI para melhor visualização.
+## 🔢 Identificador dos últimos dígitos do CPF
+
+
+Este script calcula os dois dígitos verificadores de um CPF a partir dos **nove primeiros números**.
+
+📌 Útil para aprender ou testar a lógica de validação de CPFs em sistemas.
+
+⚠️ **Importante:** Este código é educacional. Não deve ser utilizado para criar ou falsificar CPFs reais.
+
+---
+### Como usar:
+1. Informe os 9 primeiros dígitos do CPF.
+2. O script calcula e mostra os dois últimos dígitos válidos.
+
+Exemplo:
