@@ -1,13 +1,13 @@
-print('colque os nove primeiros dígitos de um cpf que os dois números identificadores serão revelados')
-n1=int(input('1°: '))
-n2=int(input('2°: '))
-n3=int(input('3°: '))
-n4=int(input('4°: '))
-n5=int(input('5°: '))
-n6=int(input('6°: '))
-n7=int(input('7°: '))
-n8=int(input('8°: '))
-n9=int(input('9°: '))
+a=input('digite os 9° primeiros números do CPF que os números identificadores serão calculados: ')
+n1=int(a[0])
+n2=int(a[1])
+n3=int(a[2])
+n4=int(a[3])
+n5=int(a[4])
+n6=int(a[5])
+n7=int(a[6])
+n8=int(a[7])
+n9=int(a[8])
 i1=((n1*10+n2*9+n3*8+n4*7+n5*6+n6*5+n7*4+n8*3+n9*2)*10)%11
 if i1>9:
         i1=0
