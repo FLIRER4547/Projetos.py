@@ -1,10 +1,13 @@
-print('\033[4;33mEle gera CPFs com estrutura válida, mas que não pertencem a pessoas reais.\033[0m')
-print(
-    '\033[4;31mNÃO\033[0m \033[4;33mutilize os CPFs gerados para qualquer tipo de cadastro real ou atividade ilegal.\033[0m')
-print('\033[4;33mO autor não se responsabiliza por usos indevidos.\033[0m')
+print('''⚠️ \033[4;31mAVISO LEGAL:\033[0m
+\033[4;33mEste código tem o objetivo apenas educacional e para testes de software.
+Ele gera CPFs com estrutura válida, mas que não pertencem a pessoas reais.\033[0m
+\033[4;31mNÃO\033[0m \033[4;33mutilize os CPFs gerados para qualquer tipo de cadastro real ou atividade ilegal.
+O autor não se responsabiliza por usos indevidos.\033[0m''')
 from random import randint
-
 a = input('Gerar um CPF ?(digite \033[4;32msim\033[0m ou \033[4;31mnão\033[0m): ').lower().strip()
+while a!='sim' and a!='não' and a!='nao':
+    print('não entendi sua resposta, tente novamente...')
+    a=input('\033[1;4;32m(sim)\033[0m ou \033[1;4;31m(não)\033[0m: ')
 if a == 'sim':
     r = input('E qual será a região do CPF? ').lower().strip()
     regioes= {
