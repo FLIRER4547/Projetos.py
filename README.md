@@ -1,40 +1,23 @@
-# 🧪 Gerador de CPF Válido — Apenas para fins educacionais
+# 📁 Projetos em Python
 
-Este projeto é um **gerador de CPFs com estrutura válida**, criado com o objetivo de **ensino, aprendizado e testes de software** (por exemplo, para validar formulários, sistemas ou aplicações que lidam com dados de CPF).
-
-⚠️ **Não utilize os CPFs gerados para qualquer tipo de cadastro real ou atividade ilegal.**
+Organização de scripts Python por níveis de dificuldade.
 
 ---
 
-## 🚨 AVISO LEGAL
+## 🌱 Projetos Iniciais
 
-Este código:
+- **CPF Generator**: Gera CPFs válidos para testes educativos.
+- **CPF Check Digits**: Calcula os dois últimos dígitos de um CPF.
+- **Leap Year Calculator**: Verifica se um ano é bissexto.
 
-- ✅ Gera CPFs com estrutura válida, conforme os algoritmos de verificação dos dígitos.
-- ❌ **Não gera CPFs de pessoas reais.**
-- 🚫 **Não deve ser usado para se registrar em sites, abrir contas ou realizar qualquer atividade fraudulenta.**
+## 🌿 Projetos Intermediários
 
-> O autor **não se responsabiliza por usos indevidos** deste software.
+- **Password Generator**: Gera senhas aleatórias com letras, números e símbolos.
 
----
+## 🌳 Projetos Avançados
 
-## 📦 Funcionalidades
-
-- Geração de CPFs válidos com os dígitos verificadores corretos.
-- Interface simples via terminal.
-- Cores e destaques com sequências ANSI para melhor visualização.
-## 🔢 Identificador dos últimos dígitos do CPF
-
-
-Este script calcula os dois dígitos verificadores de um CPF a partir dos **nove primeiros números**.
-
-📌 Útil para aprender ou testar a lógica de validação de CPFs em sistemas.
-
-⚠️ **Importante:** Este código é educacional. Não deve ser utilizado para criar ou falsificar CPFs reais.
+- **Music Player**: Toca arquivos de música usando `pygame`.
 
 ---
-### Como usar:
-1. Informe os 9 primeiros dígitos do CPF.
-2. O script calcula e mostra os dois últimos dígitos válidos.
 
-Exemplo:
+> Todos os projetos têm fins educativos e foram feitos com Python puro.
